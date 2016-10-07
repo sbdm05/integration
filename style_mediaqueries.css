@@ -1,0 +1,386 @@
+/* STYLE MEDIA QUERIES*/
+
+@media all and (max-width : 736px) {
+#banner{
+	background-image: url(../projet_1/bg_bloc1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; /* fills up the whole div*/
+}
+.wrapper{
+	width: 1440px; 
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+header{
+	padding: 2rem 0;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h2.logo {
+background: url(logo.png);
+width: 98px;
+height: 91px;
+float: left;
+}
+
+nav{
+float: right;
+}
+ nav a{
+ 	text-decoration: none;
+ 	color: white;
+ 	font-family: "Lato";
+ 	font-size: 0.7em;
+ 	padding-left: 1.2em;
+
+ }
+
+.content{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em .75em;
+}
+h2.intro{
+	font-family: "Times New Roman";
+	color: white;
+	font-weight: 700;
+	font-size: 1.4em;
+	font-style: italic;
+	opacity: 0.7;
+	letter-spacing: 0.1em;
+}
+h1.main_description{
+	font-family: "Lato";
+	color: white;
+	font-weight: 700;
+	font-size: 4em;
+	letter-spacing: 0.15em;
+	padding-top: 0.1em;
+}
+.button_wrapper{
+	text-align: center;
+	margin: 2em 0;
+}
+
+.button_banner {
+	border: none;
+	outline: none;
+	padding: .4rem 3rem;
+	border-width:0.15em;
+	font-family: "Lato";
+	text-decoration:none ;
+	color: white;
+	border-style: solid; 
+	border-color: white;
+}
+.sendus{
+	text-align: center;
+	margin: 2em 0 6.5em 0;
+}
+.underline{
+	font-family: "Lato";
+	font-size: 0.75em;
+	color: white;
+	font-weight: 400;
+	opacity: 0.8;
+}
+.underline a{
+	color: white;
+	font-weight: 700;
+}
+
+/* STYLE SERVICES */
+
+#services{
+	background: white;
+	overflow: hidden;
+}
+.services_wrapper{
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+.item{
+	width: 100%;
+	margin: 4em .5em;
+}
+
+.round{
+	border-radius: 100%;
+	border-width: .2em;
+	height: 80px;
+	width: 80px;
+	border: 1px groove black;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.burger{
+	background: url(burger.png);
+	background-repeat: no-repeat;
+	height: 66px;
+	width:65px;
+	margin: 0 auto;
+	margin-top:0.4em;
+}
+.dollar{
+	background: url(dollars.png);
+	background-repeat: no-repeat;
+	height: 59px;
+	width:73px;
+	margin: 0 auto;
+	margin-top:0.7em;
+}
+.king{
+	background: url(king.png);
+	background-repeat: no-repeat;
+	height: 73px;
+	width:61px;
+	margin: 0 auto;
+	margin-top:0.2em;
+}
+
+.services_title{
+	text-transform: uppercase;
+	margin-top: 1em;
+}
+.item hr{
+	width: 30%;
+	color:#f57365;
+}
+.item .description{
+	color: #6b6b6b;
+	font-family: "Lato";
+	font-weight: lighter;
+	padding-top: .1em;
+}
+
+#download{
+	background-color: #f7f7f7;
+	overflow: hidden;
+}
+.download_wrapper{
+	width: 90%;
+	margin: 0 auto;
+
+}
+.image_iphone_wrapper{
+	width: 100%;
+	float: left;
+}
+.image_iphone{
+	background: url(iphone.png);
+	background-repeat: no-repeat;
+	width: 328px;
+	height: 464px;
+	margin-top: 6em;
+	float: right;
+	}
+.desc_app_wrapper{
+	width: 80%;
+	margin: 3em 3em;
+	text-align: center;
+}
+
+.desc_app_wrapper hr{
+	width: 30%;
+	float: left;
+	color:#f57365;
+}
+.desc_app_wrapper p{
+	clear:both;
+	color: #676767;
+	line-height: 1.1em;
+	font-weight: lighter;
+}
+
+.buttons_apps{
+	width: 100%;
+	text-align: center;
+	padding-top: 1.5em;
+}
+.appstore{
+	background: url(apple.png);
+	background-repeat: no-repeat;
+	width: 125px;
+	height: 47px;
+	display: inline-block;
+}
+.android{
+	background: url(android.png);
+	background-repeat: no-repeat;
+	width: 132px;
+	height: 50px;
+	display: inline-block;
+}
+
+/* TESTIMONIALS BLOCK */
+
+#testimonials{
+	background:url(bg_testimonials.png);
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+.testimonials_wrapper{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 4em;
+}
+.avatar{
+	width: 100%;
+	text-align: center;
+}
+.avatar img{
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+	border: 0.2em solid ;
+	border-color: #958b94;
+}
+.avatar_testimonials{
+	width: 100%;
+	text-align: center;
+	margin-top: 1.8em;
+}
+.avatar_testimonials_citation{
+	font-family: "Lato";
+	color: white;
+	font-weight: 200;
+	font-size: 1.5em;
+	opacity: .2;
+	line-height: 1.6em;
+}
+.avatar_name{
+	width: 100%;
+	text-align: center;
+	margin-top: 0.8em;
+	margin-bottom: 3em;
+}
+.avatar_name_full{
+	font-family: "Lato";
+	color: white;
+	font-weight: 200;
+	font-size: 1.2em;
+	opacity: .2;
+	font-style: italic;
+}
+
+#browse{
+	background-color: white;
+	overflow: hidden;
+}
+.browse_title{
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+h2.browse_title_h2{
+	font-family: "Lato";
+	font-weight: "700";
+	font-size: 1em;
+	padding-top: 2em;
+}
+hr.browse_title_h2{
+	width: 10%;
+}
+.thumbnails{
+	margin: 0 auto;
+	overflow: hidden;
+}
+.thumb{
+	width:100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.thumb img{
+	width: 100%; /* important so that the image stays in the DIV*/
+		  -webkit-transition: all .2s ease;
+     -moz-transition: all .2s ease;
+       -o-transition: all .2s ease;
+      -ms-transition: all .2s ease;
+          transition: all .2s ease;
+}
+
+.thumb img:hover{
+transform: scale(1.2);
+filter: brightness(50%);
+}
+.recipe_description {
+	position: absolute;
+	bottom: 40%;
+	left:28%;
+	color: white;
+	text-align: center;
+}
+h2.numbers_recipes{
+	font-family: "Times New Roman";
+	font-style: italic;
+	font-size: 1em;
+}
+
+h1.cuisine{
+	font-family: "Lato";
+	font-size: 1.3em;
+}
+
+#figures{
+	background-color: #fff;
+	overflow: hidden;
+}
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.stats{
+	width: 100%;
+	float: left;
+padding-top: 1em;
+padding-bottom: .6em;
+}
+.stats_chiffre{
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.stats_name{
+	font-weight: 300;
+}
+@media screen and (max-width:680px) {
+	ul.topnav li {
+		display: none;
+	}
+  	ul.topnav i {
+    float: right;
+    display: inline-block;
+  	}
+    ul.topnav{
+  	background-color: transparent !important;
+  	}
+}
+
+@media screen and (max-width:680px) {
+	#banner{
+		position: relative;
+	}
+
+  ul.topnav.responsive i {
+    position: absolute;
+    right: 1em;
+    top: 3em;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: block;
+
+  }
+    ul.topnav.responsive li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
